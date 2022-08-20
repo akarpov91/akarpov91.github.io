@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import { skills } from '../lib/constants';
+---
+
+<Layout title="Alex's Skills">
+  <div class="h-screen">
+    <Nav />
+    <main class="flex justify-center">
+      <div class="w-1/2">
+        <div class="pt-5">
+          <h1 class="font-extrabold pb-10">My Skills</h1>
+        </div>
+        <div>
+          {skills.map(skill => (
+            <div>
+              <div class="font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-pink-400 to-purple-600 pb-8">
+                {skill.name}
+              </div>
+              <div class="grid gap-8 grid-cols-3 grid-rows-3">
+                {skill.list.map( item => (
+                  <div class="group">
+                    <img src={item.image} alt={item.name} class="w-8 h-8 text-gray-500" />
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </main>
+    <Footer />
+  </div>
+</Layout>

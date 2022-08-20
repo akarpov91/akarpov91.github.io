@@ -1,0 +1,15 @@
+---
+import { nav } from '../lib/constants';
+const pathname = new URL(Astro.request.url).pathname;
+const currentPath = pathname.slice(1); // remove the first "/"
+---
+<div class="sm:flex p-4 2xl:grid 2xl:grid-cols-1 2xl:flex-wrap">
+  <div class="w-3/4">
+    <a href="/"><span class="font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-pink-400 to-purple-600">Alex Karpov!</span></a>
+  </div>
+  <div class="flex flex-row justify-end pt-3">
+    {nav.map(({ title, href }) => (
+        <div class={`${currentPath === title.toLowerCase() ? "text-purple-600 underline underline-offset-8" : "text-black"} text-l text-right font-extrabold pl-11 hover:text-purple-600 hover:underline hover:underline-offset-8`}><a href={href}>{title}</a></div>
+    ))}
+  </div>
+</div>
