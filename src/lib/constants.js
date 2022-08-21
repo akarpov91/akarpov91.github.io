@@ -23,23 +23,23 @@ export const skills = [
     list: [
       {
         name: "JavaScript",
-        image: "./public/images/javascript.svg",
+        image: "/images/javascript.svg",
       },
       {
         name: "TypeScript",
-        image: "./public/images/typescript.svg",
+        image: "/images/typescript.svg",
       },
       {
         name: "Python",
-        image: "./public/images/python.svg",
+        image: "/images/python.svg",
       },
       {
         name: "HTML",
-        image: "./public/images/html.svg",
+        image: "/images/html.svg",
       },
       {
         name: "CSS",
-        image: "./public/images/css.svg",
+        image: "/images/css.svg",
       },
     ],
   },
@@ -48,15 +48,15 @@ export const skills = [
     list: [
       {
         name: "React",
-        image: "./public/images/react.svg",
+        image: "/images/react.svg",
       },
       {
         name: "Next.js",
-        image: "./public/images/next.svg",
+        image: "/images/next.svg",
       },
       {
         name: "TailwindCSS",
-        image: "./public/images/tailwind.svg",
+        image: "/images/tailwind.svg",
       },
     ],
   },
@@ -65,15 +65,15 @@ export const skills = [
     list: [
       {
         name: "PostgreSQL",
-        image: "./public/images/postgresql.svg",
+        image: "/images/postgresql.svg",
       },
       {
         name: "MySQL",
-        image: "./public/images/mysql.svg",
+        image: "/images/mysql.svg",
       },
       {
         name: "MongoDB",
-        image: "./public/images/mongodb.svg",
+        image: "/images/mongodb.svg",
       },
     ],
   },
@@ -82,11 +82,11 @@ export const skills = [
     list: [
       {
         name: "Jest",
-        image: "./public/images/jest.svg",
+        image: "/images/jest.svg",
       },
       {
         name: "Cypress",
-        image: "./public/images/cypress.svg",
+        image: "/images/cypress.svg",
       },
     ],
   },
@@ -95,35 +95,35 @@ export const skills = [
     list: [
       {
         name: "Git",
-        image: "./public/images/git.svg",
+        image: "/images/git.svg",
       },
       {
         name: "GitHub",
-        image: "./public/images/github.svg",
+        image: "/images/github.svg",
       },
       {
         name: "VS Code",
-        image: "./public/images/vscode.svg",
+        image: "/images/vscode.svg",
       },
       {
         name: "Splunk",
-        image: "./public/images/splunk.svg",
+        image: "/images/splunk.svg",
       },
       {
         name: "NPM",
-        image: "./public/images/npm.svg",
+        image: "/images/npm.svg",
       },
       {
         name: "Yarn",
-        image: "./public/images/yarn.svg",
+        image: "/images/yarn.svg",
       },
       {
         name: "Jira",
-        image: "./public/images/jira.svg",
+        image: "/images/jira.svg",
       },
       {
         name: "Postman",
-        image: "./public/images/postman.svg",
+        image: "/images/postman.svg",
       },
     ],
   },
