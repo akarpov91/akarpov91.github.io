@@ -23,23 +23,23 @@ export const skills = [
     list: [
       {
         name: "JavaScript",
-        image: "../../public/javascript.svg",
+        image: "./public/images/javascript.svg",
       },
       {
         name: "TypeScript",
-        image: "../../public/typescript.svg",
+        image: "./public/images/typescript.svg",
       },
       {
         name: "Python",
-        image: "../../public/python.svg",
+        image: "./public/images/python.svg",
       },
       {
         name: "HTML",
-        image: "../../public/html.svg",
+        image: "./public/images/html.svg",
       },
       {
         name: "CSS",
-        image: "../../public/css.svg",
+        image: "./public/images/css.svg",
       },
     ],
   },
@@ -48,15 +48,15 @@ export const skills = [
     list: [
       {
         name: "React",
-        image: "../../public/react.svg",
+        image: "./public/images/react.svg",
       },
       {
         name: "Next.js",
-        image: "../../public/next.svg",
+        image: "./public/images/next.svg",
       },
       {
         name: "TailwindCSS",
-        image: "../../public/tailwind.svg",
+        image: "./public/images/tailwind.svg",
       },
     ],
   },
@@ -65,15 +65,15 @@ export const skills = [
     list: [
       {
         name: "PostgreSQL",
-        image: "../../public/postgresql.svg",
+        image: "./public/images/postgresql.svg",
       },
       {
         name: "MySQL",
-        image: "../../public/mysql.svg",
+        image: "./public/images/mysql.svg",
       },
       {
         name: "MongoDB",
-        image: "../../public/mongodb.svg",
+        image: "./public/images/mongodb.svg",
       },
     ],
   },
@@ -82,11 +82,11 @@ export const skills = [
     list: [
       {
         name: "Jest",
-        image: "../../public/jest.svg",
+        image: "./public/images/jest.svg",
       },
       {
         name: "Cypress",
-        image: "../../public/cypress.svg",
+        image: "./public/images/cypress.svg",
       },
     ],
   },
@@ -95,35 +95,35 @@ export const skills = [
     list: [
       {
         name: "Git",
-        image: "../../public/git.svg",
+        image: "./public/images/git.svg",
       },
       {
         name: "GitHub",
-        image: "../../public/github.svg",
+        image: "./public/images/github.svg",
       },
       {
         name: "VS Code",
-        image: "../../public/vscode.svg",
+        image: "./public/images/vscode.svg",
       },
       {
         name: "Splunk",
-        image: "../../public/splunk.svg",
+        image: "./public/images/splunk.svg",
       },
       {
         name: "NPM",
-        image: "../../public/npm.svg",
+        image: "./public/images/npm.svg",
       },
       {
         name: "Yarn",
-        image: "../../public/yarn.svg",
+        image: "./public/images/yarn.svg",
       },
       {
         name: "Jira",
-        image: "../../public/jira.svg",
+        image: "./public/images/jira.svg",
       },
       {
         name: "Postman",
-        image: "../../public/postman.svg",
+        image: "./public/images/postman.svg",
       },
     ],
   },
